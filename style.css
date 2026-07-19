@@ -1,0 +1,60 @@
+body{
+  margin:0;
+  font-family:Arial,sans-serif;
+  background:#f4f4f4;
+}
+
+header{
+  background:#0077ff;
+  color:#fff;
+  text-align:center;
+  padding:20px;
+}
+
+.hero{
+  text-align:center;
+  padding:40px;
+}
+
+.products{
+  display:flex;
+  justify-content:center;
+  gap:20px;
+  flex-wrap:wrap;
+  padding:20px;
+}
+
+.card{
+  background:#fff;
+  width:220px;
+  padding:15px;
+  border-radius:10px;
+  text-align:center;
+  box-shadow:0 0 10px rgba(0,0,0,.1);
+}
+
+.card img{
+  width:100%;
+  border-radius:8px;
+}
+
+button{
+  background:#0077ff;
+  color:white;
+  border:none;
+  padding:10px 15px;
+  border-radius:5px;
+  cursor:pointer;
+}
+
+button:hover{
+  background:#005fd1;
+}
+
+footer{
+  text-align:center;
+  background:#222;
+  color:#fff;
+  padding:15px;
+  margin-top:20px;
+}
